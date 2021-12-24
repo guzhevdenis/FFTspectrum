@@ -37,6 +37,11 @@ class isignal
             std::cout<<*it<<std::endl;
         }
 
+        void print_random_number ()
+        {
+            std::cout<<5<<std::endl;
+        }
+
         void FFTAnalysis ()
         {
             int i, j, n, m, Mmax, Istp;
